@@ -113,7 +113,7 @@ a {
 
 @media (min-width: 64em) {
   .intro {
-    padding: 3.6rem 3.6rem 1rem;
+    padding: 3.6rem 4.6rem 1rem;
     display: grid;
     grid-template-columns: 54% 1fr;
     gap: 5.2rem;
@@ -122,7 +122,7 @@ a {
     background-position: left center;
   }
   .intro__content {
-    padding-top: 10rem;
+    padding-top: 12rem;
     position: relative;
   }
   .intro__home-link {
@@ -134,11 +134,16 @@ a {
   }
   .intro__title {
     margin-bottom: 2rem;
-    font-size: 3.2rem;
+    font-size: 4rem;
+  }
+  .intro__descrip {
+    padding-right: 2rem;
+    font-size: 1.8rem;
   }
   .intro__cta {
     margin: 0;
     padding: 1.5rem 6.4rem;
+    font-size: 1.8rem;
   }
   .intro__social {
     position: absolute;
@@ -146,7 +151,10 @@ a {
     bottom: 0;
   }
   .intro__link {
+    width: 4rem;
+    height: 4rem;
     margin-right: 1.6rem;
+    font-size: 1.8rem;
   }
   .intro__link--last {
     margin-right: .7rem;
@@ -163,20 +171,5 @@ a {
   }
   .intro__home-link {
     margin-bottom: 8.7rem;
-  }
-  .intro__title {
-    font-size: 4rem;
-  }
-  .intro__descrip {
-    padding-right: 2rem;
-    font-size: 1.8rem;
-  }
-  .intro__cta {
-    font-size: 1.8rem;
-  }
-  .intro__link {
-    width: 4rem;
-    height: 4rem;
-    font-size: 1.8rem;
   }
 }
